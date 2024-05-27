@@ -1,0 +1,82 @@
+<html>
+<head>
+<link rel="stylesheet" href="red.css">
+<meta charset="UTF-8">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.2.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<script>
+function readURL(input) {
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
+        reader.onload = function (e) {
+            $('#blah').attr('src', e.target.result).width(150).height(200);
+        };
+        reader.readAsDataURL(input.files[0]);
+    }
+}</script>
+<div class="sidebar">
+<div class="heart-shape" onclick="location.href='red.html';"> </div>
+<div class="heart-one" onclick="location.href='orange.html';"></div>
+<div class="heart-two"onclick="location.href='SORTHEX.html';"></div>
+<div class="heart-three"onclick="location.href='green.html';"></div>
+<div class="heart-four"onclick="location.href='blue.html';"></div>
+<div class="heart-five"onclick="location.href='indigo.html';"></div>
+<div class="heart-six"onclick="location.href='violet.html';"></div>
+</div>
+
+ <div  class="banner">
+ </div>
+  <div class="image">
+ <img src="Screenshot 2024-05-23 074809.png">
+ </div>
+ 
+ 
+ 
+ <div class="side">
+ <div class="top">
+  <img id="blah" src="#" alt="your image" style="position:absolute; left: 70; top: 100;">
+ </div>
+<fieldset>
+  <p> Select Image:<input type='file' onchange="readURL(this);"></p>
+   
+ <br>
+<input type=submit value="RUN" style="cursor:pointer;">
+<p>Embedded Hex:</p> 
+ <br>
+<p>Suggested Hex:</p>
+ <br>
+<p>Preferred Hex:</p>
+ <br>
+<p>Chosen Hex:</p>
+
+<div class="hex">
+</div>
+
+ </fieldset>
+ </div>
+ 
+ 
+ <div class="anime">
+<marquee direction="right" behavior="alternate"> ❤	❤	❤	&emsp;&emsp;♡ ♡ ♡	&emsp;&emsp;❤	❤	❤	&emsp;&emsp;♡	♡ ♡	&emsp;&emsp;❤	❤	❤	&emsp;&emsp;♡ ♡ ♡	&emsp;&emsp;❤	❤	❤	</marquee>
+ </div>
+ <div class="one">
+ </div>
+  <div class="two">
+ </div>
+  <div class="three">
+ </div>
+  <div class="four">
+ </div>
+  <div class="five">
+ </div>
+  <div class="six">
+ </div>
+  <div class="seven">
+ </div>
+  <div class="eight">
+ </div>
+ 
+</body>
+</html>

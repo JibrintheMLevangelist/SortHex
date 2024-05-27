@@ -1,0 +1,204 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Britannic", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+	background-color:white;
+}
+
+fieldset{
+	position:absolute;
+	bottom:1%;
+	height:40%;
+	width:100%;
+}
+
+.hex{
+	position:absolute;
+	width:20%;
+	height:20%;
+	left:30%;
+	border-radius:60%;
+	background-color:red;
+}
+
+.sidebar{
+	position:absolute;
+	width:9%;
+	height:100%;
+	background-color:white;
+	left:1px;
+
+}
+.heart-shape:before{
+	color: red;
+	content: "❤";
+	font-size: 5em;
+	position: absolute;
+	bottom: 79%;
+	left:15%;
+	cursor:pointer;
+}
+.heart-one:before{
+	color: orange;
+	content: "❤";
+	font-size: 5em;
+	position: absolute;
+	bottom: 67%;
+	left:15%;
+	cursor:pointer;
+}
+.heart-two:before{
+	color: yellow;
+	content: "❤";
+	font-size: 5em;
+	position: absolute;
+	bottom: 55%;
+	left:15%;
+	cursor:pointer;
+}
+.heart-three:before{
+	color: green;
+	content: "❤";
+	font-size: 5em;
+	position: absolute;
+	bottom: 43%;
+	left:15%;
+	cursor:pointer;
+}
+.heart-four:before{
+	color: blue;
+	content: "❤";
+	font-size: 5em;
+	position: absolute;
+	bottom: 31%;
+	left:15%;
+	cursor:pointer;
+}
+.heart-five:before{
+	color: indigo;
+	content: "❤";
+	font-size: 5em;
+	position: absolute;
+	bottom: 19%;
+	left:15%;
+	cursor:pointer;
+}
+.heart-six:before{
+	color: violet;
+	content: "❤";
+	font-size: 5em;
+	position: absolute;
+	bottom: 7%;
+	left:15%;
+	cursor:pointer;
+}
+.banner{
+	position:absolute;
+	bottom:84%;
+	left:9%;
+	width:76%;
+	height:20%;
+	background-color:white;
+}
+
+img{
+	position:absolute;
+	bottom:84%;
+	left:39%;
+	opacity:90%;
+}
+
+.side{
+	position:absolute;
+	width:20%;
+	height:100%;
+	background-color:white;
+	left:80%;
+}
+.anime{
+left:15%;
+bottom:70%;
+height:5%;
+width:60%;
+position:absolute;
+background-color:red;
+}
+.one{
+	position:absolute;
+	background-color:#FF0000;
+	bottom:34%;
+	left:11%;
+	width:200px;
+	height:200px;
+	border-radius:20%;
+}
+.two{
+	position:absolute;
+	background-color:#EA0000;
+	bottom:34%;
+	left:28%;
+	width:200px;
+	height:200px;
+	border-radius:20%;
+}
+.three{
+	position:absolute;
+	background-color:#D20000;
+	bottom:34%;
+	left:45%;
+	width:200px;
+	height:200px;
+	border-radius:20%;
+}
+.four{
+	position:absolute;
+	background-color:#820000;
+	bottom:34%;
+	left:62%;
+	width:200px;
+	height:200px;
+	border-radius:20%;
+}
+.five{
+	position:absolute;
+	background-color:#F63622;
+	bottom:1%;
+	left:11%;
+	width:200px;
+	height:200px;
+	border-radius:20%;	
+}
+.six{
+	position:absolute;
+	background-color:#EA0010;
+	bottom:1%;
+	left:28%;
+	width:200px;
+	height:200px;
+	border-radius:20%;
+}
+.seven{
+	position:absolute;
+	background-color:#960000;
+	bottom:1%;
+	left:45%;
+	width:200px;
+	height:200px;
+	border-radius:20%;
+}
+.eight{
+	position:absolute;
+	background-color:#CC3300;
+	bottom:1%;
+	left:62%;
+	width:200px;
+	height:200px;
+	border-radius:20%;
+}
